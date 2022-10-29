@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Paths from "./components/Paths/Paths";
+import Details from "./components/Details/Details";
+import data from "../src/sampleData";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = { data };
+  }
+  render() {
+    console.log(this.state.data);
+    return (
+      <div>
+        <header className="header">
+          <h1>Paw Paths</h1>
+        </header>
+        <Paths paths={this.state.data} />
+        <Details />
+      </div>
+    );
+  }
 }
 
 export default App;
