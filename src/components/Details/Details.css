@@ -1,0 +1,49 @@
+.path-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px 50px 25px;
+    background-color: #94b3b6;
+}
+
+.content-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    margin-top: 35vh;
+    position: relative;
+    background-color: #BBDFE0;
+    z-index: 1;
+}
+
+.details-image{
+    display: flex;
+    align-items: center;
+    width: 625px;
+    height: 350px;
+    margin-top: 18vh;
+    margin-bottom: 2vh;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+}
+
+.overview {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vh;
+}
+
+.title {
+    margin-top: 5vh;
+}
+
+.path-details {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}

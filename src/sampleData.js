@@ -1,4 +1,5 @@
-const data = [
+const pathData = {
+data : [
   {
     id: 1,
     title: "Mayflower Gulch Trail near Copper Mountain",
@@ -746,6 +747,7 @@ const data = [
     length: "420 acres",
     difficulty: "Easy",
   },
-];
+  ]
+}
 
-export default data
+export default pathData
