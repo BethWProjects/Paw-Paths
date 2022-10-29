@@ -224,7 +224,7 @@ const data = [
     overview:
       "Horsethief Falls is a small slab waterfall located 45 minutes from Colorado Springs on the West side of Pikes Peak.",
     image:
-      "http://www.hikingintherockies.com/hiking/hike%20reports/horsetheif%20falls/falls2.jpg",
+      "https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2019/10/horsethief-falls-waterfall.jpg",
     length: "2.8 miles",
     difficulty: "Easy",
   },
