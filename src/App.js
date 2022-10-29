@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 import Paths from "./components/Paths/Paths";
 import Details from "./components/Details/Details";
-import data from "../src/sampleData";
+import pathData from "./sampleData";
 import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   constructor() {
     super();
-    this.state = { data };
+    this.state = { data: pathData.data };
   }
   render() {
     // console.log(match.params)
