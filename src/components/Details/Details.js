@@ -26,12 +26,14 @@ class Details extends Component {
   render() { 
     const path = this.state.path
     return (
-      <div>
-        <img src={path.image} />
-        <h2 className='title'> {path.title} </h2>
-        <h3 className='location'> Location: {path.location}</h3>
-        <h3 className='path-details'> Distance: {path.length} | Difficulty: {path.difficulty} | Leashes Required: {path.leash} </h3>
-        <h3 className="overview"> {path.overview} </h3>  
+      <div className='path-details-container'>
+        <img src={path.image} className='details-image' />
+        <div className='content-details-container'>
+          <h2 className='title'> {path.title} </h2>
+          <h3 className='location'> Location: {path.location}</h3>
+          <h3 className='path-details'> Distance: {path.length} | Difficulty: {path.difficulty} | Leashes Required: {path.leash} </h3>
+          <h3 className="overview"> {path.overview} </h3>  
+        </div>
       </div> 
      );
   }
