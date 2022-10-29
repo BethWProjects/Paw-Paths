@@ -13,6 +13,9 @@ class App extends Component {
     console.log(this.state.data);
     return (
       <div>
+        <header className="header">
+          <h1>Paw Paths</h1>
+        </header>
         <Paths paths={this.state.data} />
         <Details />
       </div>
