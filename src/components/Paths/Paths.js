@@ -4,7 +4,15 @@ import Card from "../Card/Card";
 
 const Paths = ({ paths }) => {
   const pathData = paths.map((path) => {
-    return ( <Card img={path.image} title={path.title} type={path.type} /> )
+    return ( 
+      <Card 
+        img={path.image} 
+        title={path.title} 
+        type={path.type} 
+        key={path.id} 
+        id={path.id} 
+        /> 
+      )
   });
   return <div className="paths-container">{pathData}</div>;
 };
