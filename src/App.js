@@ -9,19 +9,35 @@ import { Route, Switch } from "react-router-dom";
 class App extends Component {
   constructor() {
     super();
-    this.state = { data: pathData.data };
+    this.state = { 
+      data: pathData.data, 
+      randomPaths: []
+    };
+  }
+
+  randomFive = () => {
+    const randomPathData = this.state.data.sort((a, b) => 0.5 - Math.random()).slice(0,5)
+    console.log(randomPathData)
+    this.setState=({randomPaths: randomPathData})
+  }
+
+  componentDidMount = () => {
+    // this.randomFive()
   }
   render() {
-    // console.log(match.params)
-
     return (
       <div>
         <header className="header">
           <h1>Paw Paths</h1>
         </header>
-        <RandomPaths paths={this.state.data} /> 
+
         <Switch>
-          <Route exact path='/' render={() => <Paths paths={this.state.data}/>} />
+          <Route exact path='/' render={() =>  (<div>
+            <RandomPaths randomFive={this.state}/> 
+            <Paths paths={this.state.data}/>
+          </div> 
+          )
+        } />
           <Route path='/:id' render={({ match }) => <Details pathId={match.params.id}/>} />
         </Switch>
       </div>
