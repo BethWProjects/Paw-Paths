@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 import Paths from "./components/Paths/Paths";
 import Details from "./components/Details/Details";
+import Nav from "./components/Nav/Nav";
 //import pathData from "./sampleData";
 import { Route, Switch } from "react-router-dom";
 import Carousel from "./components/Carousel/Carousel";
 import { fetchAllPaths } from "./api";
+
+
 class App extends Component {
   constructor() {
     super();
@@ -32,12 +35,14 @@ class App extends Component {
      }
     return (
       <div>
-        <header className="header">
-          <h1>Paw Paths</h1>
-        </header>
-        <Carousel />
+        <Nav />
         <Switch>
-          <Route exact path='/' render={() => <Paths paths={this.state.data}/>} />
+          <Route exact path='/' render={() => (
+          <div>
+            <Carousel />
+            <Paths paths={this.state.data}/>
+          </div> )
+          } />
           <Route path='/:id' render={({ match }) => <Details pathId={match.params.id}/>} />
         </Switch>
       </div>
