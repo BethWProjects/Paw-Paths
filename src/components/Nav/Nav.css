@@ -1,0 +1,24 @@
+.pawLogo {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #609998;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.tagline {
+    margin-top: 0;
+    font-family: 'ABeeZee', sans-serif;
+}
+
