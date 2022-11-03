@@ -9,35 +9,33 @@ import Carousel from "./components/Carousel/Carousel";
 import { fetchAllPaths } from "./api";
 import Search from "./components/Search/Search";
 
-
 class App extends Component {
   constructor() {
     super();
-    this.state = { data: null,
-    searchedPath: '' };
+    this.state = { data: null, searchedPath: "" };
   }
-  componentDidMount = async () => {    
-    console.log('fetch')
-      try {
-        const pathList = await fetchAllPaths();
-        const data = await pathList.json();
-        //console.log(data)
-        this.setState({ data: data });
-      } catch {
-        this.setState({
-          error: "Error Getting Paths",
-        });
-        console.log(this.state.error);
-      }
-    };
+  componentDidMount = async () => {
+    console.log("fetch");
+    try {
+      const pathList = await fetchAllPaths();
+      const data = await pathList.json();
+      //console.log(data)
+      this.setState({ data: data });
+    } catch {
+      this.setState({
+        error: "Error Getting Paths",
+      });
+      console.log(this.state.error);
+    }
+  };
   searchPath = (input) => {
-    console.log(input)
-    this.setState({searchedPath: input})
-  }
+    console.log(input);
+    this.setState({ searchedPath: input });
+  };
   render() {
-     if (!this.state.data) {
-       return <h2 className="error-message">{this.state.error}</h2>;
-     }
+    if (!this.state.data) {
+      return <h2 className="error-message">{this.state.error}</h2>;
+    }
     return (
       <div>
         <Nav />

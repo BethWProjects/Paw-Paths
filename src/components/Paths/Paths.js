@@ -3,15 +3,11 @@ import "./Paths.css";
 import Card from "../Card/Card";
 
 const Paths = ({ paths, searchedPath }) => {
-  console.log(paths);
-  console.log("path =", searchedPath);
   let pathCards;
 
   if (searchedPath !== "") {
-    pathCards = paths.filter((path) => 
-      // console.log(path.type)
+    pathCards = paths.filter((path) =>
       path.type.toLowerCase().includes(searchedPath)
-     
     );
   } else {
     pathCards = paths;
