@@ -27,7 +27,7 @@ class Carousel extends React.Component {
   render() {
     let content;
     this.displayCard();
-    console.log(this.state.randomFive);
+    //console.log(this.state.randomFive);
     this.state.randomFive &&
       (content = this.state.randomFive.map((path) => {
         return (
@@ -40,7 +40,11 @@ class Carousel extends React.Component {
           />
         );
       }));
-    return <div className="carousel-container">{content}</div>;
+    return <div>
+      <h2 className="featured-hikes">Featured Hikes</h2>
+      <div className="carousel-container">{content}</div>;
+      </div>
   }
+
 }
 export default Carousel;

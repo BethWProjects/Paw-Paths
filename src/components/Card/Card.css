@@ -12,6 +12,11 @@
   
 }
 
+.card:hover,
+.card:focus{ 
+transform: translateY(-0.25em);
+}
+
 .image {  
   object-fit: cover;  
   width: 90%;
