@@ -1,3 +1,11 @@
 .btn-container{
+  display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -1,6 +1,8 @@
 .pawLogo {
     width: 150px;
     height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .nav-container {
@@ -14,6 +16,7 @@
 .title {
     margin-bottom: 1vh;
     margin-top: 1vh;
+    font-size: 5vw;
     font-family: 'Patrick Hand SC', cursive;
 }
 

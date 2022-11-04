@@ -1,12 +1,16 @@
 .carousel-container {
   padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  overflow: scroll;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
   gap: 20px;
   background-color: #BDB69C;
 }
 
 .featured-hikes {
+  display: flex;
   align-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
