@@ -13,8 +13,11 @@ describe('Home page flows', () => {
     .get('.tagline').contains('For the walks you haven\'t taken yet...')
   });
 
-  it.skip('Should have a featured hikes and parks collection of five cards', () => {
-
+  it('Should have a featured hikes and parks collection of five cards', () => {
+    cy.get('.carousel-container').find('.card').should('have.length', 5)
+    .get('.carousel-container  > :nth-child(1)').find('img.image').should('exist')
+    .get('.carousel-container  > :nth-child(1)').find('.card-title').should('exist')  
+    .get('.carousel-container  > :nth-child(1)').find('.card-type').should('exist')
   });
 
   it('Should have a search bar with three buttons that filter results', () => {
@@ -45,8 +48,5 @@ describe('Home page flows', () => {
       .url().should('eq', 'http://localhost:3000/')
       cy.go('forward').reload()
       .url().should('eq', 'http://localhost:3000/1')
-  })
-
-
-
-})
+  });
+});
