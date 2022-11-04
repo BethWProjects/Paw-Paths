@@ -9,7 +9,6 @@
   box-shadow: 0 0 10px grey;
   position: relative;
   background-color: #94B3B6;
-  
 }
 
 .card:hover,
@@ -24,6 +23,7 @@ transform: translateY(-0.25em);
   min-width: 200px;
   max-width: 340px;
   margin-top: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 a:link {
@@ -47,5 +47,8 @@ a:visited {
   font-size: .85em;
   position: absolute;
   bottom: 0;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  overflow: auto;
 }
+

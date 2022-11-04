@@ -11,10 +11,10 @@
   align-content: center;
   flex-direction: row;
   justify-content: center;
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   font-family: 'Patrick Hand SC', cursive;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width:300px) and (max-width:760px) {
