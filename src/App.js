@@ -3,7 +3,6 @@ import "./App.css";
 import Paths from "./components/Paths/Paths";
 import Details from "./components/Details/Details";
 import Nav from "./components/Nav/Nav";
-//import pathData from "./sampleData";
 import { Route, Switch } from "react-router-dom";
 import Carousel from "./components/Carousel/Carousel";
 import { fetchAllPaths } from "./api";
@@ -15,21 +14,17 @@ class App extends Component {
     this.state = { data: null, searchedPath: "" };
   }
   componentDidMount = async () => {
-    console.log("fetch");
     try {
       const pathList = await fetchAllPaths();
       const data = await pathList.json();
-      //console.log(data)
       this.setState({ data: data });
     } catch {
       this.setState({
         error: "Error Getting Paths",
       });
-      console.log(this.state.error);
     }
   };
   searchPath = (input) => {
-    console.log(input);
     this.setState({ searchedPath: input });
   };
   render() {
