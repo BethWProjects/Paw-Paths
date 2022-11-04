@@ -39,7 +39,6 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <Search searchPath={this.searchPath} />
         <Switch>
           <Route
             exact
@@ -47,6 +46,7 @@ class App extends Component {
             render={() => (
               <div>
                 <Carousel />
+                <Search searchPath={this.searchPath} />
                 <Paths
                   paths={this.state.data}
                   searchedPath={this.state.searchedPath}

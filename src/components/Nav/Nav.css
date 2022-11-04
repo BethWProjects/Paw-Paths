@@ -1,6 +1,8 @@
 .pawLogo {
     width: 150px;
     height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .nav-container {
@@ -8,13 +10,15 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #609998;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .title {
     margin-bottom: 1vh;
     margin-top: 1vh;
+    font-size: 5vw;
     font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
 }
 
 .tagline {
@@ -22,3 +26,9 @@
     font-family: 'ABeeZee', sans-serif;
 }
 
+
+@media only screen and (min-width:300px) and (max-width:760px) {
+    .title{
+     font-size: 6.5vw;
+    } 
+   }

@@ -41,10 +41,9 @@ class Carousel extends React.Component {
         );
       }));
     return <div>
-      <h2 className="featured-hikes">Featured Hikes</h2>
-      <div className="carousel-container">{content}</div>;
+      <h2 className="featured-hikes">Featured Hikes & Parks</h2>
+      <div className="carousel-container">{content}</div>
       </div>
   }
-
 }
 export default Carousel;
