@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Mayflower Gulch Trail near Copper Mountain",
+        "location": "Mayflower Gulch Trail, CO-91, Frisco, CO 80443",
+        "type": "Hike",
+        "leash": "Yes",
+        "overview":
+        "Easy parking. Gentle elevation. Three miles round trip. And a ghost town? The Mayflower Gulch Trail gives you all this and a shockingly gorgeous basin to behold. On top of all this, the hike works well for families, especially if there exists any curiosity about the old west. The spacious gulch invites visitors to wander around and discover the fringes…a running stream, abandoned mines, and ridge line views. Caution: DO NOT inspect abandoned mines or even walk too closely; enjoy them from a distance! They can have unstable internal structures and entrances.",
+        "image":
+        "https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2022/03/IMG_9133.jpeg",
+        "length": "3 miles",
+        "difficulty": "Easy to Moderate"
+    },
+    {
+        "id": 2,
+        "title": "Beaver Brook Trail at Windy Saddle Park",
+        "location": "Parking lot, 1277 Lookout Mountain Rd, Golden, CO 80401",
+        "type": "Hike",
+        "leash": "Yes",
+        "overview":
+        "One aspect that commends the Beaver Brook Trail hike to all ranges of ability and interest is its ease of editing. Need a short stroll to clear the mind? Take a stretch to the first vista and turn around. Ready to engage in a healthy, keep-your-wits challenge? Press ahead to the highest point on the trail, which this post describes. The undulating elevation, and the carousel of pine-lined trail, rock ledges, and bursts of expansive valley views entreat hikers to take one more step.",
+        "image":
+        "https://dayhikesneardenver.com/wp-content/uploads/2022/03/IMG_9021.jpeg",
+        "length": "11 miles Round Trip",
+        "difficulty": "Moderate to Difficult"
+    },
+    {
+        "id": 3,
+        "title": "Eleven Mile State Park Interpretive Trail",
+        "location": "Coyote Ridge Nature Trail Lake George, CO 80827",
+        "type": "Hike",
+        "leash": "Yes",
+        "overview":
+        "Eleven Mile State Park feels like the proverbial `hidden in plain sight` gem. Situated off the commonly traveled Highway 24 between Colorado Springs and Buena Vista, this loop hike blesses visitors with uncommon beauty. Trekking around the 3.5+ mile trail serves up a superb buffet of Colorado's classic outdoors: aspen and evergreen forests, meadows, rocky crags, vistas of mountain ranges, and a shoreline. Rarely do trails achieve a true `all-year` rating, but this loop qualifies. This hike near Denver could function as an along-the-way pit stop or a destination in itself, perfect for a swift pace or a lingering stroll with the family.",
+        "image":
+        "https://dayhikesneardenver.com/wp-content/uploads/2021/09/FBF45F27-A2E6-4B3C-BD6A-A762B770A955.jpg",
+        "length": "3.5-5.5 miles Round Trip",
+        "difficulty": "Moderate to Difficult"
+    },
+    {
+        "id": 4,
+        "title": "Crater Lake Hike in the Indian Peaks Wilderness",
+        "location":
+        "Monarch Lake Trailhead Continental Divide Trail, Granby, CO 80446",
+        "type": "Hike",
+        "leash": "Yes",
+        "overview":
+        "California may boast Yosemite, but Colorado offers the Indian Peaks Wilderness valley. And within this wilderness, one happens upon an arresting sight — Mirror Lake and Crater Lake, dutifully monitored by the impressive Lone Eagle Peak. Long considered an iconic range, the Indian Peaks give hikers an endless stream of prime photography, wildflowers, and `Look at that!` moments. From the trailhead to Mirror Lake hikers encounter a half-dozen waterfalls, any one of which would capture all-star status on another trail!",
+        "image":
+        "https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2021/07/1F264879-6567-4285-B7EF-92DCC649775E.jpg",
+        "length": "15 miles Round Trip",
+        "difficulty": "Difficult"
+    },
+    {
+        "id": 56,
+        "title": "Westminster Hills Dog Park",
+        "location": "10499 Simms St, Westminster, CO 80005",
+        "type": "Park",
+        "leash": "No",
+        "overview":
+          "This Westminster park is a favorite for Denver Metro dog owners. It offers 420 acres between Colorado Hills Open Space and Standley Lake North Open Space Park with a dog drinking fountain, a dog swimming pond, benches and shade.",
+        "image":
+          "https://s3-media0.fl.yelpcdn.com/bphoto/CpQj7gYGquJ-IMYPGqdiPA/348s.jpg",
+        "length": "420 acres",
+        "difficulty": "Easy"
+      }
+]

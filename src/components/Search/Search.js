@@ -35,7 +35,7 @@ class Search extends Component {
             this.props.searchPath("");
           }}
         >
-          <button>Home</button>
+          <button>Clear</button>
         </Link>
       </div>
     );
