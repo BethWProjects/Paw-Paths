@@ -1,9 +1,9 @@
 .carousel-container {
-  padding: 20px;
+  /* padding: 20px;
   display: flex;
   overflow: scroll;
   gap: 20px;
-  background-color: #BDB69C;
+  background-color: #BDB69C; */
 }
 
 .featured-hikes {
@@ -15,6 +15,11 @@
   font-family: 'Patrick Hand SC', cursive;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width:300px) and (max-width:760px) {

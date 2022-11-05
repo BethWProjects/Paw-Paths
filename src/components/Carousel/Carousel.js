@@ -3,6 +3,12 @@ import Card from "../Card/Card";
 import "./Carousel";
 import "./Carousel.css";
 import { fetchAllPaths } from "../../api";
+import { Navigation, Keyboard, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import 'swiper/css/keyboard';
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -12,6 +18,11 @@ class Carousel extends React.Component {
       randomFive: null,
     };
   };
+
+  swiper = new Swiper('.swiper', {
+    modules: [Navigation, Pagination],
+    ...
+  });
 
   componentDidMount = async () => {
     try {
@@ -36,6 +47,7 @@ class Carousel extends React.Component {
     this.state.randomFive &&
       (content = this.state.randomFive.map((path) => {
         return (
+          <SwiperSlide className="swiper-slide">
           <Card
             img={path.image}
             title={path.title}
@@ -43,12 +55,25 @@ class Carousel extends React.Component {
             key={path.id}
             id={path.id}
           />
+          </SwiperSlide>
         );
       }));
     return (
       <div>
         <h2 className="featured-hikes">Featured Hikes & Parks</h2>
-        <div className="carousel-container">{content}</div>
+        <div className="carousel-container">
+          <Swiper
+            modules={[Navigation, Scrollbar, Keyboard ]}
+            slidesPerView={3}
+            navigation={true}
+            keyboard={true}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+          >   
+          {content}
+          </Swiper>
+          </div>
       </div>
     );
   }
