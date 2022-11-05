@@ -1,7 +1,7 @@
 # 🐾 Paw Paths
 
 ## Overview
-Welcome to Paw Paths! Here we have provided an app that allows you to browse a collection of hikes and parks, search for specific type, and view individual details of a path. This is a group project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This was a path tracking application which introduced students to Express, Knex, and PostgresQL as well as strengthening an understanding of React and Cypress; taking place over 9 days to complete. Our learning goals were to implement a 'Stretch Technologies', which we chose to be BE and Databases. View the project here: [Link to project description](https://frontend.turing.edu/projects/module-3/stretch.html).
+Welcome to Paw Paths! Here we have provided an app that allows you to browse a collection of hikes and parks, search for a specific type, and view individual details of a path. This is a group project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). It is a path tracking application which introduced students to Express, Knex, and PostgresQL as well as strengthening an understanding of React and Cypress; taking place over 9 days to complete. Our learning goal was to implement a 'Stretch Technology', which we chose to be backend, learning to build a database and create a table schema with seeded data. We were able to deploy our backend API on Heroku and then fetch the data with the provided link on our frontend. View the project specs here: [project description](https://frontend.turing.edu/projects/module-3/stretch.html).
 
 ![Paw Paths GIF First View](https://user-images.githubusercontent.com/101376200/200139543-552e00a4-b599-4f2b-b87c-6d8e8c7e6069.gif)
 
@@ -13,7 +13,7 @@ Welcome to Paw Paths! Here we have provided an app that allows you to browse a c
 
 ## Deployed Link
 Check out our project here!
-[Paw Paths](https://sour-apples.vercel.app/)
+[Paw Paths](https://paw-paths-q7habzwyb-bethwprojects.vercel.app/)
 
 Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
