@@ -16,7 +16,6 @@ class Search extends Component {
         <button
           onClick={() => {
             this.props.searchPath("hike");
-            console.log("true");
           }}
         >
           Hikes
@@ -24,7 +23,6 @@ class Search extends Component {
         <button
           onClick={() => {
             this.props.searchPath("park");
-            console.log("false");
           }}
         >
           Parks
