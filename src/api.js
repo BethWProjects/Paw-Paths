@@ -1,3 +1,3 @@
 export const fetchAllPaths = async () => {
-  return await fetch("https://paw-paths.herokuapp.com/api/v1/pathData");
+  return await fetch("httpfs://paw-paths.herokuapp.com/api/v1/pathData");
 };
