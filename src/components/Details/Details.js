@@ -31,7 +31,7 @@ class Details extends Component {
     const path = this.state.path
     return (
       <div className='path-details-container'>
-        <img src={path.image} className='details-image' alt={`image of ${path.title}`} />
+        <img src={path.image} className='details-image hidden' alt={`image of ${path.title}`} />
         <div className='content-details-container'>
           <h2 className='title'> {path.title} </h2>
           <h3 className='location'><img src={location} className='icon' alt="Location Icon"/> Location - {path.location}</h3>
