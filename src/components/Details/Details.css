@@ -1,9 +1,9 @@
-body {
+/* body {
   -webkit-transition:all 2.5s ease-in-out;
   -moz-transition:all 2.5s ease-in-out;
   -o-transition:all 2.5s ease-in-out;
   transition:all 2.5s ease-in-out;
-  }
+  } */
 
 .path-details-container {
   display: flex;

@@ -1,8 +1,14 @@
 import React from "react";
-import Card from "../Card/Card";
+import CarouselCard from "../../CarouselCard/CarouselCard";
 import "./Carousel";
 import "./Carousel.css";
 import { fetchAllPaths } from "../../api";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Mousewheel, Keyboard } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -36,19 +42,50 @@ class Carousel extends React.Component {
     this.state.randomFive &&
       (content = this.state.randomFive.map((path) => {
         return (
-          <Card
-            img={path.image}
-            title={path.title}
-            type={path.type}
-            key={path.id}
-            id={path.id}
-          />
+          <SwiperSlide className="swiper-slide" key={path.id}>
+            <CarouselCard
+              img={path.image}
+              title={path.title}
+              type={path.type}
+              key={path.id}
+              id={path.id}
+            />
+          </SwiperSlide>
         );
       }));
     return (
       <div>
         <h2 className="featured-hikes">Featured Hikes & Parks</h2>
-        <div className="carousel-container">{content}</div>
+        <div className="carousel-wrapper">
+          <div className="carousel-container">
+            <Swiper
+              modules={[Navigation, Mousewheel, Keyboard]}
+              spaceBetween={15}
+              loop={true}
+              initialSlide={2}
+              centeredSlides={true}
+              breakpoints={{
+                200: {
+                  slidesPerView: 1,
+                },
+
+                500: {
+                  slidesPerView: 2,
+                },
+                769: {
+                  slidesPerView: 3,
+                },
+              }}
+              slidesPerView={3}
+              navigation={true}
+              keyboard={true}
+              mousewheel={true}
+              className="all-swiper-paths"
+            >
+              {content}
+            </Swiper>
+          </div>
+        </div>
       </div>
     );
   }

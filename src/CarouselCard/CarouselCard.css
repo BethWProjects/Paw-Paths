@@ -1,0 +1,58 @@
+
+
+ .swiper-initialized, .swiper-horizontal, .swiper-pointer-events, .all-swiper-paths{
+  text-align: center;
+ }
+
+.card:hover,
+.card:focus {
+  transform: translateY(-0.25em);
+}
+
+.carousel-image {
+  align-items: center;
+  object-fit: cover;
+  width: 90%;
+  height: 60%;
+  min-width: 200px;
+  max-width: 340px;
+  margin-top: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.carousel-card-title,
+.carousel-card-type {
+
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.carousel-card-title {
+ 
+  font-size: 1.1em;
+}
+
+.carousel-card-type {
+ 
+  font-size: .85em;
+  /* position: absolute; */
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  overflow: auto;
+}
+
+@media only screen and (min-width:300px) and (max-width:760px) {
+  .featured-hikes {
+    font-size: 6.5vw;
+  }
+
+}
