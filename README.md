@@ -1,17 +1,17 @@
-# 🍏 Sour Apples
+# 🐾 Paw Paths
 
 ## Overview
-Welcome to Sour Apples! Here we have provided an app that allows you to browse a collection of movies, search for specific movies by title, and view individual details of a movie on a separate page. This is a paired project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This was a movie tracking application introduced students to React and Cypress; taking place over 10 days to complete. Our learning goals were to implement React fundamentals, testing React components and asynchronous JS, refactoring, and creating a multi-page UX using Router. View the project here: [Link to project description](https://frontend.turing.edu/projects/module-3/rancid-tomatillos-v3.html).
+Welcome to Paw Paths! Here we have provided an app that allows you to browse a collection of hikes and parks, search for specific type, and view individual details of a path. This is a group project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This was a path tracking application which introduced students to Express, Knex, and PostgresQL as well as strengthening an understanding of React and Cypress; taking place over 9 days to complete. Our learning goals were to implement a 'Stretch Technologies', which we chose to be BE and Databases. View the project here: [Link to project description](https://frontend.turing.edu/projects/module-3/stretch.html).
 
-![Sour Apples GIF Movie Collection](https://user-images.githubusercontent.com/102000070/197582469-9ba4f0be-3045-48cf-bc29-e5c7d3c6914c.gif)
+![Paw Paths GIF Path Collection](https://user-images.githubusercontent.com/102000070/197582469-9ba4f0be-3045-48cf-bc29-e5c7d3c6914c.gif)
 
-![Sour Apples GIF Single Movie](https://user-images.githubusercontent.com/102000070/197582645-3b52fcaf-9fed-46b9-b13c-665e517a5f74.gif)
+![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/102000070/197582645-3b52fcaf-9fed-46b9-b13c-665e517a5f74.gif)
 
-![Sour Apples GIF Search Feature](https://user-images.githubusercontent.com/102000070/197582798-8881ab31-6168-4a4c-aee1-f242dbdd0863.gif)
+![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/102000070/197582798-8881ab31-6168-4a4c-aee1-f242dbdd0863.gif)
 
 ## Deployed Link
 Check out our project here!
-[Sour Apples](https://sour-apples.vercel.app/)
+[Paw Paths](https://sour-apples.vercel.app/)
 
 Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
@@ -23,13 +23,16 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 5. Run `npm start`
 
 ## Technologies Used
-![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+![PostgresQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) |
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
+![Knex](https://img.shields.io/badge/-knex.js-orange) |
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) |
 ![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) |
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Future Iterations
 - We would like to add the movie trailers to the individual movie page.
