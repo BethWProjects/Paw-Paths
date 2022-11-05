@@ -4,7 +4,9 @@
   overflow: scroll;
   gap: 20px;
   background-color: #BDB69C;
+  object-fit: fill;
 }
+
 
 .featured-hikes {
   display: flex;
