@@ -14,10 +14,10 @@ describe('Home page flows', () => {
   });
 
   it('Should have a featured hikes and parks collection of five cards', () => {
-    cy.get('.carousel-container').find('.card').should('have.length', 5)
-    .get('.carousel-container  > :nth-child(1)').find('img.image').should('exist')
-    .get('.carousel-container  > :nth-child(1)').find('.card-title').should('exist')  
-    .get('.carousel-container  > :nth-child(1)').find('.card-type').should('exist')
+    cy.get(".carousel-container")
+      .get(".swiper-slide-prev").find(".carouselCard").find(".carousel-image").should("exist")
+      .get(".swiper-slide-prev").find(".carouselCard").find(".carousel-card-title").should("exist")
+      .get(".swiper-slide-prev").find(".carouselCard").find(".carousel-card-type").should("exist")
   });
 
   it('Should have a search bar with three buttons that filter results', () => {
