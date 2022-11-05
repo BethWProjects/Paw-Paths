@@ -36,14 +36,11 @@ a:visited {
 }
 
 .carousel-card-title {
- 
   font-size: 1.1em;
 }
 
 .carousel-card-type {
- 
   font-size: .85em;
-  /* position: absolute; */
   bottom: 0;
   margin-bottom: 10px;
   margin-top: 3px;

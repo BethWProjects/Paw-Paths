@@ -17,9 +17,7 @@ class Details extends Component {
 
   getPath = () =>  {
     const getId =  Number(this.props.pathId)
-    console.log(getId)
     const currentPath =  pathData.data.find(path => path.id === getId)
-    console.log(currentPath)
     this.setState({path: currentPath})
   }
   

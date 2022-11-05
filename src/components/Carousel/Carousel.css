@@ -1,5 +1,6 @@
 .carousel-container {
   padding: 20px;
+  padding-bottom: 0;
   display: flex;
   overflow: scroll;
   gap: 20px;
