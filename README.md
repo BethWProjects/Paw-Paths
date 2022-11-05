@@ -35,20 +35,18 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Future Iterations
-- We would like to add the movie trailers to the individual movie page.
+- We would like to add a POST to allow users to enter hikes they have been on.
 - Add a login feature so users can add favorites.
-- Implement React hooks.
 
 ## Dev Notes
 ### Wins
+- Making and deploying our own backend
 - Fully functioning React app
 - Mobile and responsive design
 - 100% Accessibility rating keeping quality testing through our development cycle
-- Search functionality is UX friendly
 
 ### Challenges
-- Hiding the clear button on the search feature
-- Cypress testing with our buttons
+- Deploying on Heroku for our BE
 
 ## Contributors
 Beth Wilson [github](https://github.com/BethWProjects) | [LinkedIn](https://www.linkedin.com/in/beth-wilson-92594284/)
