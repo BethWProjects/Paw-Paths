@@ -20,7 +20,7 @@ class App extends Component {
       this.setState({ data: data });
     } catch {
       this.setState({
-        error: "Error Getting Paths",
+      error: "Sorry, no paths available. Take a stroll around the block and try again!",
       });
     }
   };
@@ -28,13 +28,11 @@ class App extends Component {
     this.setState({ searchedPath: input });
   };
   render() {
-    if (!this.state.data) {
-      return <h2 className="error-message">{this.state.error}</h2>;
-    }
     return (
       <div>
         <Nav />
         <Switch>
+          {!this.state.data && <h2 className="error-message">{this.state.error}</h2>};
           <Route
             exact
             path="/"
@@ -45,14 +43,14 @@ class App extends Component {
                 <Paths
                   paths={this.state.data}
                   searchedPath={this.state.searchedPath}
-                />
+                  />
               </div>
             )}
-          />
+            />
           <Route
             path="/:id"
             render={({ match }) => <Details pathId={match.params.id} />}
-          />
+            />
         </Switch>
       </div>
     );

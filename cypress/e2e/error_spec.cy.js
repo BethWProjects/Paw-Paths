@@ -4,6 +4,6 @@ describe('Error handling flows', () => {
       forceNetworkError: true
     }).as('error')
     cy.visit('http://localhost:3000')
-    cy.get('[class="error-message"]').contains('Error Getting Paths')
+    cy.get('[class="error-message"]').contains('Sorry, no paths available. Take a stroll around the block and try again!')
   });
 });
