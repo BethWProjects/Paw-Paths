@@ -3,11 +3,13 @@
 ## Overview
 Welcome to Paw Paths! Here we have provided an app that allows you to browse a collection of hikes and parks, search for specific type, and view individual details of a path. This is a group project assigned by [Turing School of Software and Design](https://frontend.turing.edu/). This was a path tracking application which introduced students to Express, Knex, and PostgresQL as well as strengthening an understanding of React and Cypress; taking place over 9 days to complete. Our learning goals were to implement a 'Stretch Technologies', which we chose to be BE and Databases. View the project here: [Link to project description](https://frontend.turing.edu/projects/module-3/stretch.html).
 
-![Paw Paths GIF Path Collection](https://user-images.githubusercontent.com/102000070/197582469-9ba4f0be-3045-48cf-bc29-e5c7d3c6914c.gif)
+![Paw Paths GIF First View](https://user-images.githubusercontent.com/101376200/200139543-552e00a4-b599-4f2b-b87c-6d8e8c7e6069.gif)
 
-![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/102000070/197582645-3b52fcaf-9fed-46b9-b13c-665e517a5f74.gif)
 
-![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/102000070/197582798-8881ab31-6168-4a4c-aee1-f242dbdd0863.gif)
+![Paw Paths GIF Single Path](https://user-images.githubusercontent.com/101376200/200139547-931b17c5-e459-4cb2-b3f4-b577a1f6e062.gif)
+
+
+![Paw Paths GIF Search Feature](https://user-images.githubusercontent.com/101376200/200139577-f321b988-9929-4611-8122-7f82bc30492e.gif)
 
 ## Deployed Link
 Check out our project here!
@@ -35,8 +37,8 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Future Iterations
-- We would like to add a POST to allow users to enter hikes they have been on.
-- Add a login feature so users can add favorites.
+- We would like to add a POST to allow users to enter hikes they have been on
+- Add a login feature so users can add favorites
 
 ## Dev Notes
 ### Wins
