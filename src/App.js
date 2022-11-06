@@ -53,7 +53,7 @@ class App extends Component {
           />
           <Route
             path="/:id"
-            render={({ match }) => <Details pathId={match.params.id} />}
+            render={({ match }) => <Details pathId={match.params.id} paths={this.state.data} />}
           />
         </Switch>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselCard from "../../CarouselCard/CarouselCard";
+import CarouselCard from "../CarouselCard/CarouselCard";
 import "./Carousel";
 import "./Carousel.css";
 import { fetchAllPaths } from "../../api";
