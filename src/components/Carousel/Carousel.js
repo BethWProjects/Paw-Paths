@@ -20,7 +20,6 @@ class Carousel extends React.Component {
   };
 
   componentDidMount = async () => {
-    
     try {
       const pathList = await fetchAllPaths();
       const newData = await pathList.json();

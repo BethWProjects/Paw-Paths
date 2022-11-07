@@ -53,7 +53,7 @@ Deployed using ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style
 ## Contributors
 Beth Wilson [github](https://github.com/BethWProjects) | [LinkedIn](https://www.linkedin.com/in/beth-wilson-92594284/)
 
-Colby Pearce [github](https://github.com/Crpearce/)) | [LinkedIn](https://www.linkedin.com/in/colby-pearce1/)
+Colby Pearce [github](https://github.com/Crpearce/) | [LinkedIn](https://www.linkedin.com/in/colby-pearce1/)
 
 Hazel Pablo [github](https://github.com/Hpablo08) | [LinkedIn](https://www.linkedin.com/in/hazel-pablo-704779245/)
 

@@ -13,26 +13,9 @@ class Search extends Component {
   render() {
     return (
       <div className="btn-container">
-        <button
-          onClick={() => {
-            this.props.searchPath("hike");
-          }}
-        >
-          Hikes
-        </button>
-        <button
-          onClick={() => {
-            this.props.searchPath("park");
-          }}
-        >
-          Parks
-        </button>
-        <Link
-          to={`/`}
-          onClick={() => {
-            this.props.searchPath("");
-          }}
-        >
+        <button onClick={() => { this.props.searchPath("hike") }} > Hikes </button>
+        <button onClick={() => { this.props.searchPath("park") }}> Parks </button>
+        <Link to={`/`} onClick={() => { this.props.searchPath("") }} >
           <button>Clear</button>
         </Link>
       </div>
