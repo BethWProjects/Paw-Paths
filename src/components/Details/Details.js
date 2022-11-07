@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import { fetchAllPaths } from '../../api';
 import difficulty from "../../Images/difficulty.png"
 import footprints from "../../Images/footprints.png"
 import location from "../../Images/location.png"
@@ -14,18 +15,22 @@ class Details extends Component {
      }
   }
 
-  getPath = () =>  {
-    const getId =  Number(this.props.pathId)
-    const currentPath =  this.props.paths.find(path => path.id === getId)
-    this.setState({path: currentPath})
-  }
-  
-  componentDidMount = () => {
-    this.getPath()
-  }
+  componentDidMount = async () => {
+     try { const pathList = await fetchAllPaths();
+      const data = await pathList.json();
+      const pathMatch = await data.find(path => path.id === Number(this.props.pathId));
+      this.setState({ path: pathMatch, loading:false });
+     } catch {
+      this.setState({error: "Sorry, no paths available. Take a stroll around the block and try again!"});
+     }
+    }
+
+  searchPath = (input) => {
+    this.setState({ searchedPath: input });
+  };
 
   render() { 
-    const path = this.state.path
+    const path = this.state.path;
     return (
       <div className='path-details-container'>
         <img src={path.image} className='details-image hidden' alt={`image of ${path.title}`} />
@@ -42,7 +47,7 @@ class Details extends Component {
         </div>
       </div> 
      );
-  }
-}
+    }
+};
  
 export default Details;

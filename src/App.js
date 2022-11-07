@@ -14,6 +14,7 @@ class App extends Component {
     super();
     this.state = { data: [], searchedPath: "" };
   }
+  
   componentDidMount = async () => {
     this.setState({ loading: true });
     try {
@@ -53,7 +54,7 @@ class App extends Component {
           />
           <Route
             path="/:id"
-            render={({ match }) => <Details pathId={match.params.id} paths={this.state.data} />}
+            render={({ match }) => <Details pathId={match.params.id} />}
           />
         </Switch>
       </div>
