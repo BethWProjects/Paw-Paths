@@ -4,7 +4,6 @@ import Card from "../Card/Card";
 
 const Paths = ({ paths, searchedPath }) => {
   let pathCards;
-
   if (searchedPath !== "") {
     pathCards = paths.filter((path) =>
       path.type.toLowerCase().includes(searchedPath)
@@ -12,6 +11,7 @@ const Paths = ({ paths, searchedPath }) => {
   } else {
     pathCards = paths;
   }
+
   const pathData = pathCards.map((path) => {
     return (
       <Card

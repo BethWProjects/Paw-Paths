@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import pathData from '../../sampleData';
 import { Link } from 'react-router-dom';
 import difficulty from "../../Images/difficulty.png"
 import footprints from "../../Images/footprints.png"
